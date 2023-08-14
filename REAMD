@@ -1,0 +1,37 @@
+Modelo de redes neuronales convolucionales (CNN) para la detección de enfermedades en las plantas de arroz 
+
+Madeline Sánchez Macías, Miguel Riofrio , Oswaldo Cruel 
+
+Carrera de Ingeniería en Sistemas de Información, Facultad de Ingeniería, Universidad de Guayaquil. 
+
+ 
+
+ 
+
+RESUMEN 
+
+El arroz es reconocido a nivel global como una planta de gran importancia, ya que constituye una fuente de alimento para más de la mitad de la población mundial. No obstante, como ocurre con otras plantas, el arroz es vulnerable a diversas enfermedades que pueden afectar tanto la cantidad como la calidad de su producción. En algunos casos, esto puede dar lugar a pérdidas de entre un 20% y un 40% en los cultivos. Detectar a tiempo estas enfermedades es crucial para mejorar la cosecha, lo que significa que los agricultores deben estar familiarizados con las distintas afecciones y saber cómo identificarlas visualmente. Sin embargo, inspeccionar diariamente extensas áreas de cultivo resulta una tarea imposible para los agricultores. Incluso si fuera posible, sería costoso, lo que a su vez incrementaría el precio del arroz para los consumidores. Para abordar este problema, se propone una solución que combina el uso de drones con algoritmos de aprendizaje automático adaptados y la tecnología del Internet de las cosas (IoT). El presente documento plantea un enfoque basado en el aprendizaje de transferencia de una red neuronal convolucional profunda (DCNN) para lograr una detección y clasificación precisas de las enfermedades que afectan las hojas de arroz. 
+
+Introducción  
+
+El cultivo de arroz es una actividad agrícola importante en todo el mundo, ya que es un alimento básico para millones de personas. Sin embargo, las enfermedades de las plantas de arroz pueden causar grandes pérdidas económicas y reducir la producción de alimentos. La detección temprana y precisa de estas enfermedades es esencial para prevenir su propagación y minimizar su impacto en la producción de arroz.   
+
+En los últimos años, la aplicación de técnicas de aprendizaje profundo, como las redes neuronales convolucionales (CNN), ha demostrado ser una herramienta prometedora para la detección de enfermedades. Los modelos CNN pueden aprender automáticamente características relevantes de las imágenes de las hojas de arroz y clasificarlas en diferentes categorías de enfermedades.   
+
+Metodología   
+
+La metodología utilizada en este trabajo se enfoca en el desarrollo de un sistema de aprendizaje que pueda detectar, clasificar y detectar enfermedades en plantas de arroz de manera automática. Se adaptó una combinación de técnicas de procesamiento de imágenes, extracción de características y clasificación mediante el uso de una red neuronal convolucional (CNN).   
+
+Para desarrollar el modelo CNN, se produjo un conjunto de datos de 614 imágenes de hojas de arroz con un tamaño de imagen de 300 píxeles. La arquitectura del modelo consta de 3 capas convolucionales y 2 capas totalmente conectadas, con una tasa de abandono del 50% y normalización de lotes. El modelo se entrenó durante 100 épocas con un tamaño de lote de 32 y una tasa de aprendizaje de 0.001. Se evaluó el rendimiento del modelo mediante la precisión y la puntuación F1. 
+
+Resultados   
+
+ 
+
+ 
+
+ 
+
+Referencias 
+
+https://doi.org/10.48779/41mp-qp02 2. http://148.217.50.3/jspui/bitstream/20.500.11845/1696/1/2019-09%20VALERIA%20MAEDA%20GTZ.pdf 3. https://doi.org/10.56048/MQR20225.6.4.2022.608-620 4. https://hdl.handle.net/11059/12797 5. http://repositorio.utn.edu.ec/handle/123456789/14099 6. http://hdl.handle.net/20.500.11799/136985 R 
